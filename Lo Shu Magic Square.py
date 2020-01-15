@@ -42,6 +42,8 @@ for x in range(len(magicnumber)):
             r=magicnumber[x][y]
 anotherdigonalsum = r+r1+r2 #another digonal sum (from right to left)
 
+print(digonalsum)
+print(anotherdigonalsum)
 #checking that row sum, colum sum, digonal sum, another digonal are same 
 if rowsum[0]==columsum[0]==digonalsum==anotherdigonalsum:
     print("This is a Lo Shu Magic Square.")
